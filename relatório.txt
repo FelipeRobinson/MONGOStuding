@@ -1,0 +1,11 @@
+Bom, algumas coisas que eu pedi para o chatGPT foram direcionadas a:
+    "Onde eu posso ver os dados da tabela" ou "Onde eu localizo a tabela", as respostas foram:
+    - Você deve digitar "mongod --version" para verificar se está baixado o mongo na sua máquina e qual é a versão.
+    - caso esteja:
+        show dbs                     // Lista os bancos de dados
+        use lanchonete               // Acessa o banco de dados "lanchonete"
+        show collections             // Mostra as coleções (produtos, vendas)
+        db.produtos.find().pretty()  // Exibe todos os documentos da coleção "produtos"
+        db.vendas.find().pretty()    // Exibe todos os documentos da coleção "vendas"
+
+E coisas sobre o desing gráfico criado pelo GPT...
